@@ -31,16 +31,12 @@ li a:hover {
 /* Nav Bar */
 
 /* Home Page Content */
-/* .heading {
-    margin-left: 200px;
+.name {
+    color: #FA7D1E;
 }
-
-.intro {
-    margin-left: 200px;
-    margin-top: 80px;
-    width: 30rem;
-}  */
-
+.heading {
+    font-size: 32px;
+}
 .row-home {
     padding-left: 150px;
     padding-right: 150px;
@@ -50,8 +46,6 @@ li a:hover {
     margin-top: 50px;
     width: 30rem;
 }
-
-
 /* Home Page Content */
 
 /* Contact Me & Resume Button  */
@@ -94,17 +88,16 @@ li a:hover {
 
 /* Blog Header */
 header.blog-header {
-    margin: -50px 50px;
+    margin: 50px 50px;
     padding: 5px;
     font-size: 24px;
-    text-align: left;
+    text-align: center;
     background: white;
     text-decoration: underline 2px;
     color: #FA7D1E;
 }
 
 /* Blog content  */
-
 .article {
     padding: 70px;
 }
@@ -129,36 +122,13 @@ section.blog {
 }
 /* Blog content  */
 
-/* About Me Content */
-
-/* About me Content */
-
-* {
-    box-sizing: border-box;
-  }
-  
-article.row {
-    padding: 70px;
+/* Project Content */
+.row {
+    margin-left: 50px;
+    margin-right: 50px;
 }
-  
-  /* Center website */
-  .main {
-    max-width: 1000px;
-    margin: auto;
-  }
-  
-  h1 {
-    font-size: 50px;
-    word-break: break-all;
-  }
-  
-  article.row {
-    margin: 8px -16px;
-  }
-  
-  /* Content */
-  .projects {
-    background-color: white;
-    padding: 70px;
-  }
+
+
+/* Project Content */
+
   

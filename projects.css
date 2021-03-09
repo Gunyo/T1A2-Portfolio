@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+
+/* Nav Bar */
+ul {
+    list-style-type: none;
+    margin: 25px 50px 50px;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    padding: 48px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: #FA7D1E;
+}
+/* Nav Bar */
+
+img {
+    max-width: 100%;
+    display: block;
+  }
+
+.cards {
+  margin: 0 auto;
+  /* max-width: 800px; */
+}
+
+nav {
+    grid-area: header; 
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-evenly;
+  }
