@@ -8,21 +8,55 @@
     <title>Yuusuke Nagata</title>
 </head>
 <body>
-
-<!-- Nav Bar -->
+    <!-- Nav Bar -->
     <nav>
-        <ul>
-            <li><a href="aboutme.html">About me</a></li>
+        <div class="logo">
+            <h4>Yn.</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="aboutme.html">About Me</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="skills.html">Skills</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="home.html">Home</a></li>
         </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <!-- Nav bar Java Script by: Dev Ed (https://www.codeply.com/p/hVa3gv9Umw) (https://www.youtube.com/watch?v=gXkqy0b4M5g)-->
+        <script>
+            function navSlide() {
+                const burger = document.querySelector(".burger");
+                const nav = document.querySelector(".nav-links");
+                const navLinks = document.querySelectorAll(".nav-links li");
+                
+                burger.addEventListener("click", () => {
+                    //Toggle Nav
+                    nav.classList.toggle("nav-active");
+                    
+                    //Animate Links
+                    navLinks.forEach((link, index) => {
+                        if (link.style.animation) {
+                            link.style.animation = ""
+                        } else {
+                            link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+                        }
+                    });
+                    //Burger Animation
+                    burger.classList.toggle("toggle");
+                });
+                
+            }
+            
+            navSlide();
+        </script>
+        <!-- Nav bar Java Script by: Dev Ed (https://www.codeply.com/p/hVa3gv9Umw) (https://www.youtube.com/watch?v=gXkqy0b4M5g)-->
     </nav>
-<!-- Nav Bar -->
+    <!-- Nav Bar -->
 
 <!-- Body -->
-    <article class="row-home">
+    <article>
         <header class="heading">
             <h1>Hi I'm Yuusuke Nagata<br>I am a Web Developer<br>&<br>IT Professional. </h1>
         </header>
@@ -37,14 +71,12 @@
         </section>
 
         <!-- Button -->
-        <section>
-            <div id="contact-me">
-                <button class="button button1">Contact Me</button>
+
+            <div class="row">
+                <a href="aboutme.html" class="button1">Contact Me</a>
+                <a href="aboutme.html" class="button1">Resume</a>
             </div>
-            <div id="resume">
-                <button class="button button2">Resume</button>
-            </div>
-        </section>
+
         <!-- Button -->
     </article>
 <!-- Body -->
