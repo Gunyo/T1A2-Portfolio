@@ -4,11 +4,10 @@
 
 /* Font  */
 
-article {
+/* article {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 77rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,11 +15,12 @@ article {
     padding-right: 32px;
     padding-bottom: 77px;
     margin-bottom: 62px;
-  }
+  } */
 
-#box-shadow {
+/* #box-shadow {
     box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
-}
+} */
+
 
 /* Nav Bar */
 
@@ -49,7 +49,7 @@ nav {
 }
 
 .logo {
-    color: rgb(226, 226, 226);
+    color: #fff;
     font-size: 40px;
 }
 
@@ -148,6 +148,22 @@ nav {
 /* Nav Bar */
 
 /* Home Page Content */
+article {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 77px;
+    margin-bottom: 62px;
+  }
+
+#box-shadow {
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+}
+
 .name {
     color: #FA7D1E;
 }
@@ -162,6 +178,11 @@ nav {
     width: 30rem;
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
+    color: rgba(0, 0, 0, 0.45);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    width: 100%
 }
 
 .home-content > * {
@@ -179,19 +200,79 @@ nav {
     padding-left: 32px;
     padding-right: 32px;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 216px;
 }
 
 .home-paragraph {
     font-family: 'Nunito', sans-serif;
     margin-bottom: 50px;
+    color: rgba(0, 0, 0, 0.45);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
 }
 
+footer {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 14px;
+    background-color: #F6F7F9;
+}
+
+footer {
+    font-family: 'Nunito', sans-serif;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    article {
+        justify-content: left;
+      } 
+    
+      #intro-2 {
+          width: 25rem;
+      }
+}
+
+@media only screen and (min-width: 961px) {
+    article {
+        justify-content: left;
+        padding-left: 225px;
+        padding-right: 225px;
+        display: flex;
+    }
+
+    .column {   
+        flex: 50%;
+    }
+
+    #intro-2 {
+       width: 25rem;
+    }
+    
+    .home-img {
+        padding-top: 40px;
+    }
+}
+
+
+
 /* Home Page Content */
+
 
 /* Contact Me & Resume Button  */
 .row {
     margin-top: 40px;
     margin-bottom: 40px;
+    width: 100%; 
 }
 .button1 {
     border: none;
@@ -221,50 +302,5 @@ nav {
 /* Contact Me & Resume Button  */
 
 
-/* Blog Header */
-header.blog-header {
-    margin: 50px 50px;
-    padding: 5px;
-    font-size: 24px;
-    text-align: center;
-    background: white;
-    text-decoration: underline 2px;
-    color: #FA7D1E;
-}
-
-/* Blog content  */
-.article {
-    padding: 70px;
-}
-
-section.blog {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 2px 9px -6px;   
-}
-
-.blog-img {
-    width: 20rem;
-    height: auto; 
-}
-
-.blog-content {
-    font-size: 14px;
-}
-.blog {
-    margin-bottom: 10px;
-    padding: 10px 15px;
-    width: auto;
-}
-/* Blog content  */
-
-/* Project Content */
-
-/* .row {
-    margin-left: 50px;
-    margin-right: 50px;
-} */
 
 
-/* Project Content */
-
-  

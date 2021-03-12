@@ -1,0 +1,46 @@
+/* Blog Header */
+header.blog-header {
+    margin: 50px 50px;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    background: white;
+    text-decoration: underline 2px;
+    color: #FA7D1E;
+}
+
+/* Blog content  */
+.article {
+    padding: 70px;
+}
+
+section.blog {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 9px -6px;   
+}
+
+.blog-img {
+    width: 20rem;
+    height: auto; 
+}
+
+.blog-content {
+    font-size: 14px;
+}
+.blog {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    width: auto;
+}
+/* Blog content  */
+
+/* Project Content */
+
+/* .row {
+    margin-left: 50px;
+    margin-right: 50px;
+} */
+
+
+/* Project Content */
+/* Tablet */
