@@ -4,24 +4,6 @@
 
 /* Font  */
 
-/* article {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 77px;
-    margin-bottom: 62px;
-  } */
-
-/* #box-shadow {
-    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
-} */
-
-
 /* Nav Bar */
 
 li a:hover {
@@ -249,6 +231,7 @@ article {
     line-height: 22px;
 }
 
+/* Footer */
 footer {
     font-family: 'Nunito', sans-serif;
     display: flex;
@@ -262,9 +245,6 @@ footer {
     padding-right: 32px;
     font-size: 14px;
     background-color: #F6F7F9;
-}
-
-footer {
     font-family: 'Nunito', sans-serif;
     color: rgba(0, 0, 0, 0.45);
 }
@@ -319,7 +299,6 @@ footer {
         width: 15rem;
     }
 }
-
 
 /* Home Page Content */
 

@@ -4,25 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
     <title>Blog</title>
 </head>
 <body>
-
-<!-- Nav Bar -->
+    <!-- Nav Bar -->
     <nav>
-        <ul>
-            <li><a href="aboutme.html">About me</a></li>
+        <div class="logo">
+            <h4>Yn.</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="aboutme.html">About Me</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="skills.html">Skills</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="home.html">Home</a></li>
         </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <!-- Nav bar Java Script by: Dev Ed (https://www.codeply.com/p/hVa3gv9Umw) (https://www.youtube.com/watch?v=gXkqy0b4M5g)-->
+        <script>
+            function navSlide() {
+                const burger = document.querySelector(".burger");
+                const nav = document.querySelector(".nav-links");
+                const navLinks = document.querySelectorAll(".nav-links li");
+                
+                burger.addEventListener("click", () => {
+                    //Toggle Nav
+                    nav.classList.toggle("nav-active");
+                    
+                    //Animate Links
+                    navLinks.forEach((link, index) => {
+                        if (link.style.animation) {
+                            link.style.animation = ""
+                        } else {
+                            link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+                        }
+                    });
+                    //Burger Animation
+                    burger.classList.toggle("toggle");
+                });
+                
+            }
+            
+            navSlide();
+        </script>
+        <!-- Nav bar Java Script by: Dev Ed (https://www.codeply.com/p/hVa3gv9Umw) (https://www.youtube.com/watch?v=gXkqy0b4M5g)-->
     </nav>
-<!-- Nav Bar -->
+    <!-- Nav Bar -->
 
 <!-- Page Heading -->
-    <header class="blog-header">
+    <header>
         <h2>Blog</h2>
     </header>
 <!-- Page Heading -->
@@ -30,9 +64,9 @@
 <!-- Blog Content -->
     <article class="row">
         <section id="blog-1" class="blog">
+            <img src="img/meeting.jpg" class="blog-img" alt="graduating students">
             <h2>Completeing Diploma Screen & Media TAFE Queensland</h2>
             <h5>My experience studying in TAFE Queensland, Dec 7, 2020</h5>
-            <img src="https://www.angliss.edu.au/siteassets/student-experience/william-angliss-graduation.jpg" class="blog-img" alt="graduating students">
                 <p class="blog-content">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam aliquam praesentium exercitationem accusantium explicabo ea. 
                     Labore vel veniam voluptates, ducimus soluta beatae, ipsam rem maxime suscipit omnis ad error esse corporis quaerat aliquid 
@@ -41,9 +75,9 @@
         </section>
 
         <section id="blog-2" class="blog">
+            <img src="img/design.jpg" class="blog-img" alt="adobe max">
             <h2>Attending Adobe Max Coding Conference</h2>
             <h5>App Developer talk about his experiencing working for Twitter, Nov 14, 2020</h5>
-            <img src="https://cdn.mos.cms.futurecdn.net/5ALoek9eRv6QawKeJRR93k-1200-80.jpg" class="blog-img" alt="adobe max">
                 <p class="blog-content">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam aliquam praesentium exercitationem accusantium explicabo ea. 
                     Labore vel veniam voluptates, ducimus soluta beatae, ipsam rem maxime suscipit omnis ad error esse corporis quaerat aliquid 
@@ -52,9 +86,9 @@
         </section>
 
         <section id="blog-3" class="blog">
+            <img src="img/handshake.jpg" class="blog-img" alt="">
             <h2>Completing first 3D Model on 3DS Max (TAFE Queensland)</h2>
             <h5>Modelling a 1970 British Conconrde, Dec 7, 2020</h5>
-            <img src="" class="blog-img" alt="">
                 <p class="blog-content">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam aliquam praesentium exercitationem accusantium explicabo ea. 
                     Labore vel veniam voluptates, ducimus soluta beatae, ipsam rem maxime suscipit omnis ad error esse corporis quaerat aliquid 
@@ -63,9 +97,9 @@
         </section>
 
         <section id="blog-4" class="blog">
+            <img src="img/code.jpg" class="blog-img" alt="">
             <h2>Creating My First Web Store on Boostrap (TAFE Queensland)</h2>
             <h5>My experience studying in TAFE Queensland, Dec 7, 2020</h5>
-            <img src="" class="blog-img" alt="">
                 <p class="blog-content"> 
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam aliquam praesentium exercitationem accusantium explicabo ea. 
                     Labore vel veniam voluptates, ducimus soluta beatae, ipsam rem maxime suscipit omnis ad error esse corporis quaerat aliquid 
@@ -74,9 +108,9 @@
         </section>
 
         <section id="blog-5" class="blog">
+            <img src="img/stationary.jpg" class="blog-img" alt="">
             <h2>Attending Virtual Coding Meetup</h2>
             <h5>My experience studying in TAFE Queensland, Dec 7, 2020</h5>
-            <img src="" class="blog-img" alt="">
                 <p class="blog-content">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam aliquam praesentium exercitationem accusantium explicabo ea. 
                     Labore vel veniam voluptates, ducimus soluta beatae, ipsam rem maxime suscipit omnis ad error esse corporis quaerat aliquid 
@@ -88,7 +122,7 @@
 
 <!-- Footer  -->
     <footer>
-    
+        &copy; Copyright 2021 Yuusuke Nagata. All Rights Reserved.
     </footer>
 <!-- Footer  -->
         
