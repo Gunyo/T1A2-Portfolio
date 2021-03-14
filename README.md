@@ -14,4 +14,13 @@ Accessibility.
 
 <img width="893" alt="Sitemap" src="https://user-images.githubusercontent.com/63145473/111066400-8ad03480-850a-11eb-9af3-533f689a5117.png">
 
+![home](https://user-images.githubusercontent.com/63145473/111066538-5741da00-850b-11eb-8d9b-1d71328ecbf9.png)
+
+![Aboutme](https://user-images.githubusercontent.com/63145473/111066556-6032ab80-850b-11eb-976f-255744723bf0.png)
+
+![Blog](https://user-images.githubusercontent.com/63145473/111066569-67f25000-850b-11eb-9804-2d9bd5aa6ab6.png)
+
+![Projects](https://user-images.githubusercontent.com/63145473/111066559-61fc6f00-850b-11eb-8330-be860a4c3aeb.png)
+
+
 
