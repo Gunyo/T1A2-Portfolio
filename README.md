@@ -12,4 +12,6 @@ Functionality/Features:
 My portfolio website contains minimilistic elements for easy viewing along with responsive to all displays and 
 Accessibility. 
 
+<img width="893" alt="Sitemap" src="https://user-images.githubusercontent.com/63145473/111066400-8ad03480-850a-11eb-9af3-533f689a5117.png">
+
 
