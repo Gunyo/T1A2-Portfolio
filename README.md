@@ -24,8 +24,14 @@ Accessibility.
 
 Target audience:
 Employers looking to engage a dev and/or IT professional. Expect the employer to have the following knowledge and expectations:
-- technical knowledge relating to information technology, software development/coding, programming languages and development stacks
-- high expectations of professionalism and a positive work ethic
+- technical knowledge relating to information technology, software development/coding, programming languages and development stacks.
+- high expectations of professionalism and a positive work ethic.
+
+Tech Stack:
+- Visual Studio Code
+- HTML
+- CSS
+- JavaScript
 
 
 
