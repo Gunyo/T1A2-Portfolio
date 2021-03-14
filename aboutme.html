@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="aboutme.css">
+    <link rel="stylesheet" href="style/aboutme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>About Me</title>
 </head>
 <body>
     <!-- Nav Bar -->
     <nav>
         <div class="logo">
-            <h4>Yn.</h4>
+            <a href="home.html" id="logo"><h4>Yn.</h4></a>
         </div>
         <ul class="nav-links">
             <li><a href="aboutme.html">About Me</a></li>
@@ -54,20 +55,72 @@
         <!-- Nav bar Java Script by: Dev Ed (https://www.codeply.com/p/hVa3gv9Umw) (https://www.youtube.com/watch?v=gXkqy0b4M5g)-->
     </nav>
     <!-- Nav Bar -->
-
-  
     <!-- Body -->
-    <content class="row">
-        <h3>Hi, i'm Yuusuke Nagata</h3>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quas corporis eos!
-        </p>
-    </content>
+    <article class="row">
+        <div class="about-me">
+            <header>
+                <p id="header">About Me<p>
+            </header>
+            <p class="aboutme-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio volutpat, dolor varius pellentesque odio orci proin. Eu odio aliquam mi feugiat lectus dui at non.</p>
+            <p class="aboutme-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio volutpat, dolor varius pellentesque odio orci proin. Eu odio aliquam mi feugiat lectus dui at non.</p>
+            <p class="aboutme-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio volutpat, dolor varius pellentesque odio orci proin. Eu odio aliquam mi feugiat lectus dui at non.</p>
+        </div>
+
+        <div class="experience">
+            <p id="header">Experience</p>
+            <p class="aboutme-1">Lorem ipsum dolor sit amet, consectetur </p>
+            <p class="aboutme-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui rhoncus vitae pharetra tortor.</p>
+            <p class="aboutme-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui rhoncus vitae pharetra tortor.</p>
+            <a href="https://www.nicholascoupland.com/" class="button1">Resume</a>
+        </div>
+
+        <content class="column">
+            <div class="skills">
+                <h2>Personality</h2> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis egestas massa quam ac aliquam quis arcu eget. Pretium at sit posuere egestas tristique. Sed consequat vel senectus morbi lorem morbi. Adipiscing tellus facilisis ridiculus fringilla. Ut lorem sed sit hac adipiscing pellentesque </p>
+            </div>
+            <div class="skills">
+                <h2>Technical Skills</h2> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis egestas massa quam ac aliquam quis arcu eget. Pretium at sit posuere egestas tristique. Sed consequat vel senectus morbi lorem morbi. Adipiscing tellus facilisis ridiculus fringilla. Ut lorem sed sit hac adipiscing pellentesque </p>
+            </div>
+            <div class="skills">
+                <h2>Soft Skills</h2> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis egestas massa quam ac aliquam quis arcu eget. Pretium at sit posuere egestas tristique. Sed consequat vel senectus morbi lorem morbi. Adipiscing tellus facilisis ridiculus fringilla. Ut lorem sed sit hac adipiscing pellentesque </p>
+            </div>
+        </content>
+
+        <div class="aboutme-img">
+            <img src="img/brisbane.jpg" alt="Brisbane Story Bridge">
+        </div>
+
+        <content class="form">
+            <h2>Contact Me</h2>
+            <div class="box">
+                <form>
+                    <input type="text" name="name" class="form-box" placeholder="Name" required>
+                    <input type="email" name="email" class="form-box" placeholder="Email" required>
+                    <textarea name="message" class="form-box" placeholder="Message" rows="4" required></textarea>
+                    <input type="submit" name="submit" class="form-box" value="SEND">
+                </form>
+            </div>
+        </content>
+
+        <!-- Social Media -->
+        <div class="socialmedia">
+            <ul>
+                <li class="x2"><a href="https://github.com/Gunyo" target="_blank" title="Github" class="x2"><i class="fa fa-github fa-2x"></i></a></li>
+                <li class="x2"><a href="https://www.linkedin.com/in/yuusuke-nagata-992417155/" target="_blank" title="LinkedIn" class="x2"><i class="fa fa-linkedin fa-2x"></i></a></li>
+            </ul>
+
+        </div>
+        <!-- Social Media -->
+    </article>
+
     <!-- Body -->
 
     <!-- Footer  -->
         <footer>
-        
+            &copy; Copyright 2021 Yuusuke Nagata. All Rights Reserved.
         </footer>
     <!-- Footer  -->
         
