@@ -22,5 +22,11 @@ Accessibility.
 
 ![Projects](https://user-images.githubusercontent.com/63145473/111066559-61fc6f00-850b-11eb-8330-be860a4c3aeb.png)
 
+Target audience:
+Employers looking to engage a dev and/or IT professional. Expect the employer to have the following knowledge and expectations:
+- technical knowledge relating to information technology, software development/coding, programming languages and development stacks
+- high expectations of professionalism and a positive work ethic
+
+
 
 
