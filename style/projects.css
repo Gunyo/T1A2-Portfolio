@@ -180,8 +180,9 @@ header {
 }
 
 .cards:hover {
-    text-decoration: underline 1.5px #FA7D1E;
+    text-decoration: underline;
 }
+
 
 /* Footer */
 footer {
