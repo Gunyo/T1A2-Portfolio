@@ -232,6 +232,7 @@ form {
     box-sizing: border-box;
     font: 16px;
     font-family: 'Nunito', sans-serif;
+    margin-bottom: 77px;
 }
 
 input {
@@ -288,6 +289,11 @@ a.x2 {
     text-decoration: none;
 }
 
+.content-2 {
+    margin-bottom: 77px;
+
+}
+
 
 
 /* Footer */
@@ -311,7 +317,13 @@ footer {
 
 /* Tablet Display */
 @media only screen and (min-width: 768px) and (max-width: 960px) {
-    .aboutme-img {
-        display: block;
+    .column {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    .socialmedia {
+        width: 100%;
     }
 }
