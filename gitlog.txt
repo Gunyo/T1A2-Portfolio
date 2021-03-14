@@ -1,0 +1,95 @@
+commit 071d180dc9b840f512eb62ef78c5fb19f6ee9e95
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Sun Mar 14 19:20:50 2021 +1000
+
+    changes to href links
+
+commit f44eca76291e2cfb55e6567284417b8a3fcf6d05
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Sun Mar 14 19:15:42 2021 +1000
+
+    completed aboutme.html
+
+commit 938a60149f8499392f4e65d0645e523b2a4128e0
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Sun Mar 14 18:41:51 2021 +1000
+
+    changes to aboutme.html on display
+
+commit 4521604217463d0c3f445942cb326f6420c9f64a
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Sun Mar 14 14:05:25 2021 +1000
+
+    completed projects.html
+
+commit 024e636d17e5452704f4dd4c5ab9c1e89cf6e334
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Sat Mar 13 18:32:07 2021 +1000
+
+    completed blog.html
+
+commit 968ed28321cad1d9a890a4c9edb2f068a1ad69a3
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Sat Mar 13 17:41:54 2021 +1000
+
+    finish mobile and tablet display for blog.html
+
+commit 7646f3799565adad20ff7adee41501acd92d2012
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Sat Mar 13 00:44:06 2021 +1000
+
+    change content in blog.html
+
+commit 709104cc57dfce3ca7673f151d32a6f8182c602f
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Sat Mar 13 00:14:30 2021 +1000
+
+    complete home.html
+
+commit c156ffd03bfefbce24474804cdf04aba089b6554
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Fri Mar 12 23:49:34 2021 +1000
+
+    flex-box changes on home.html
+
+commit 722e629aa6b14d49a83d359b85aad3f7cbf9ba0f
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Fri Mar 12 01:40:02 2021 +1000
+
+    added image, box shadow and second content of main page
+
+commit c54db13b4c0dfbc1b1653ab902b05d7cdb94fb45
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Thu Mar 11 23:13:32 2021 +1000
+
+    Added Hamburger menu
+
+commit 72b088b7249a0eefcf8104b37e539baf15263a1f
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Tue Mar 9 14:50:07 2021 +1000
+
+    minor changes to projects
+
+commit 1a9efd905b321a4fd7deafba3723f7d82df1ebf8
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Tue Mar 9 14:18:50 2021 +1000
+
+    Changes to Blog & Home
+
+commit 5b4892b8e8c18f9a4938bcde30dbf5e19063c964
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Tue Mar 9 13:15:13 2021 +1000
+
+    update on Blog & Projects
+
+commit 4db587b84643c134a1bcbc3c7f5456604ebd50d2
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Tue Mar 9 10:18:59 2021 +1000
+
+    minor changes to blog.thml
+
+commit ac33e5029566d79bd555c9aa3ae453eaa1f6c87d
+Author: Yuusuke Nagata <yusukenagata@hotmail.com>
+Date:   Mon Mar 8 16:15:08 2021 +1000
+
+    Setting up Page
