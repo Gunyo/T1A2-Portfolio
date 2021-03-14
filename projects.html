@@ -8,57 +8,80 @@
     <title>Projects</title>
 </head>
 <body>
-<!-- Nav Bar -->
+    <!-- Nav Bar -->
     <nav>
-        <ul>
-            <li><a href="aboutme.html">About me</a></li>
+        <div class="logo">
+            <a href="home.html" id="logo"><h4>Yn.</h4></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="aboutme.html">About Me</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="skills.html">Skills</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="home.html">Home</a></li>
         </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <!-- Nav bar Java Script by: Dev Ed (https://www.codeply.com/p/hVa3gv9Umw) (https://www.youtube.com/watch?v=gXkqy0b4M5g)-->
+        <script>
+            function navSlide() {
+                const burger = document.querySelector(".burger");
+                const nav = document.querySelector(".nav-links");
+                const navLinks = document.querySelectorAll(".nav-links li");
+                
+                burger.addEventListener("click", () => {
+                    //Toggle Nav
+                    nav.classList.toggle("nav-active");
+                    
+                    //Animate Links
+                    navLinks.forEach((link, index) => {
+                        if (link.style.animation) {
+                            link.style.animation = ""
+                        } else {
+                            link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+                        }
+                    });
+                    //Burger Animation
+                    burger.classList.toggle("toggle");
+                });
+                
+            }
+            
+            navSlide();
+        </script>
+        <!-- Nav bar Java Script by: Dev Ed (https://www.codeply.com/p/hVa3gv9Umw) (https://www.youtube.com/watch?v=gXkqy0b4M5g)-->
     </nav>
-<!-- Nav Bar -->
+    <!-- Nav Bar -->
 
+    <!-- Body -->
     <article class="row">
+        <header id="header">
+            <h2>Projects</h2>
+        </header>
 
-    <!-- Page Header -->
-    <h2>Projects</h2>
-    <!-- Page Header -->
-
-    <!-- Portfolio Gallery Grid -->
-        <section class="cards">
-            <content class="projects">
-                <img src="https://placekitten.com/200/300" alt="">
-                <h3>My Work</h3>
-                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-            </content>
-        </section>
-
-        <section class="cards">
-            <content class="projects">
-                <img src="https://placekitten.com/200/300" alt="">
-                <h3>My Work</h3>
-                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-            </content>
-        </section>
-
-        <section class="cards">
-            <content class="projects">
-                <img src="https://placekitten.com/200/300" alt="">
-                <h3>My Work</h3>
-                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-            </content>
-        </section>
-        
-        <section class="cards">
-            <content class="projects">
-                <img src="https://placekitten.com/200/300" alt="">
-                <h3>My Work</h3>
-                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+        <content class="column">
+            <section class="cards">
+                    <img src="img/shopping.jpg" class="projects-img" alt="ecommerce store">
+                    <h3>e-commerce Store</h3>
             </section>
-        </section>
+            <section class="cards">
+                    <img src="img/blog.jpg" class="projects-img" alt="stationary">
+                    <h3>Blog Website</h3>
+            </section>
+            <section class="cards">
+                    <img src="img/fitness.jpg" class="projects-img" alt="fitness instructor on computer">
+                    <h3>Fitness Workout</h3>
+            </section>
+        </content>
     </article>
-    <!-- END GRID -->
+    <!-- Body -->
+
+    <!-- Footer  -->
+    <footer>
+        &copy; Copyright 2021 Yuusuke Nagata. All Rights Reserved.
+    </footer>
+    <!-- Footer  -->
 </body>
 </html>

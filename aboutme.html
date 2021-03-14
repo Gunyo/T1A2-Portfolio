@@ -4,43 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aboutme.css">
     <title>About Me</title>
 </head>
 <body>
-
-<!-- Nav Bar -->
+    <!-- Nav Bar -->
     <nav>
-        <ul>
-            <li><a href="aboutme.html">About me</a></li>
+        <div class="logo">
+            <h4>Yn.</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="aboutme.html">About Me</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="skills.html">Skills</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="home.html">Home</a></li>
         </ul>
-    </nav>
-<!-- Nav Bar -->
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
 
-<!-- Page Heading -->
-    <header class="blog-header">
-        <h2>About Me</h2>
-    </header>
-<!-- Page Heading -->
-    
-<!-- Body -->
+        <!-- Nav bar Java Script by: Dev Ed (https://www.codeply.com/p/hVa3gv9Umw) (https://www.youtube.com/watch?v=gXkqy0b4M5g)-->
+        <script>
+            function navSlide() {
+                const burger = document.querySelector(".burger");
+                const nav = document.querySelector(".nav-links");
+                const navLinks = document.querySelectorAll(".nav-links li");
+                
+                burger.addEventListener("click", () => {
+                    //Toggle Nav
+                    nav.classList.toggle("nav-active");
+                    
+                    //Animate Links
+                    navLinks.forEach((link, index) => {
+                        if (link.style.animation) {
+                            link.style.animation = ""
+                        } else {
+                            link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+                        }
+                    });
+                    //Burger Animation
+                    burger.classList.toggle("toggle");
+                });
+                
+            }
+            
+            navSlide();
+        </script>
+        <!-- Nav bar Java Script by: Dev Ed (https://www.codeply.com/p/hVa3gv9Umw) (https://www.youtube.com/watch?v=gXkqy0b4M5g)-->
+    </nav>
+    <!-- Nav Bar -->
+
+  
+    <!-- Body -->
     <content class="row">
         <h3>Hi, i'm Yuusuke Nagata</h3>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quas corporis eos!
         </p>
     </content>
-<!-- Body -->
+    <!-- Body -->
 
-<!-- Footer  -->
-    <footer>
-    
-    </footer>
-<!-- Footer  -->
+    <!-- Footer  -->
+        <footer>
+        
+        </footer>
+    <!-- Footer  -->
         
 </body>
 </html>
